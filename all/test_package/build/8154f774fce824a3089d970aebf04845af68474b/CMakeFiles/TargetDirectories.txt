@@ -1,0 +1,4 @@
+/Users/cyberax/aurora/grpc/recipe/all/test_package/build/8154f774fce824a3089d970aebf04845af68474b/CMakeFiles/hw_proto_obj.dir
+/Users/cyberax/aurora/grpc/recipe/all/test_package/build/8154f774fce824a3089d970aebf04845af68474b/CMakeFiles/greeter_client_server.dir
+/Users/cyberax/aurora/grpc/recipe/all/test_package/build/8154f774fce824a3089d970aebf04845af68474b/CMakeFiles/edit_cache.dir
+/Users/cyberax/aurora/grpc/recipe/all/test_package/build/8154f774fce824a3089d970aebf04845af68474b/CMakeFiles/rebuild_cache.dir

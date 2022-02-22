@@ -1,0 +1,120 @@
+[settings]
+    arch=armv8
+    build_type=Release
+    compiler=apple-clang
+    compiler.libcxx=libc++
+    compiler.version=13.0
+    os=Macos
+
+[requires]
+    grpc/1.Y.Z
+
+[options]
+
+
+[full_settings]
+    arch=armv8
+    build_type=Release
+    compiler=apple-clang
+    compiler.libcxx=libc++
+    compiler.version=13.0
+    os=Macos
+
+[full_requires]
+    abseil/20211102.0:f1a36a2aea2da1148eb4bddd758d8db183c6db83
+    c-ares/1.17.2:2b43ac9f2f2b42510d2425b1d0e91048dcff03aa
+    grpc/1.43.0@aurorasolar/release:2eae302c65cf74561d7f822dd9daad99a2e13777
+    openssl/1.1.1m:095512ed878f14a09dd732e9f6868729dd437529
+    protobuf/3.17.1:81d278ffa68aa3fcd5decff6c5df28319037c55b
+    re2/20211101:f1a36a2aea2da1148eb4bddd758d8db183c6db83
+    zlib/1.2.11:095512ed878f14a09dd732e9f6868729dd437529
+
+[full_options]
+    abseil:fPIC=True
+    abseil:shared=False
+    c-ares:fPIC=True
+    c-ares:shared=False
+    c-ares:tools=True
+    grpc:codegen=True
+    grpc:cpp_plugin=True
+    grpc:csharp_ext=False
+    grpc:csharp_plugin=True
+    grpc:fPIC=True
+    grpc:node_plugin=True
+    grpc:objective_c_plugin=True
+    grpc:php_plugin=True
+    grpc:python_plugin=True
+    grpc:ruby_plugin=True
+    grpc:secure=False
+    openssl:386=False
+    openssl:enable_weak_ssl_ciphers=False
+    openssl:fPIC=True
+    openssl:no_aria=False
+    openssl:no_asm=False
+    openssl:no_async=False
+    openssl:no_bf=False
+    openssl:no_blake2=False
+    openssl:no_camellia=False
+    openssl:no_cast=False
+    openssl:no_chacha=False
+    openssl:no_cms=False
+    openssl:no_comp=False
+    openssl:no_ct=False
+    openssl:no_deprecated=False
+    openssl:no_des=False
+    openssl:no_dgram=False
+    openssl:no_dh=False
+    openssl:no_dsa=False
+    openssl:no_dso=False
+    openssl:no_ec=False
+    openssl:no_ecdh=False
+    openssl:no_ecdsa=False
+    openssl:no_engine=False
+    openssl:no_filenames=False
+    openssl:no_gost=False
+    openssl:no_hmac=False
+    openssl:no_idea=False
+    openssl:no_md4=False
+    openssl:no_md5=False
+    openssl:no_mdc2=False
+    openssl:no_ocsp=False
+    openssl:no_pinshared=False
+    openssl:no_rc2=False
+    openssl:no_rfc3779=False
+    openssl:no_rmd160=False
+    openssl:no_rsa=False
+    openssl:no_seed=False
+    openssl:no_sha=False
+    openssl:no_sm2=False
+    openssl:no_sm3=False
+    openssl:no_sm4=False
+    openssl:no_sock=False
+    openssl:no_srp=False
+    openssl:no_srtp=False
+    openssl:no_sse2=False
+    openssl:no_ssl=False
+    openssl:no_ssl3=False
+    openssl:no_stdio=False
+    openssl:no_tests=False
+    openssl:no_threads=False
+    openssl:no_tls1=False
+    openssl:no_ts=False
+    openssl:no_whirlpool=False
+    openssl:openssldir=None
+    openssl:shared=False
+    protobuf:fPIC=True
+    protobuf:lite=False
+    protobuf:shared=False
+    protobuf:with_rtti=True
+    protobuf:with_zlib=True
+    re2:fPIC=True
+    re2:shared=False
+    zlib:fPIC=True
+    zlib:minizip=deprecated
+    zlib:shared=False
+
+[recipe_hash]
+
+
+[env]
+
